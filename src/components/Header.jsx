@@ -20,7 +20,7 @@ async function Header() {
       <Link href={"/"}>
         <div className="text-2xl font-bold bg-gradient-to-br from-gray-100 to-gray-500 text-transparent bg-clip-text">
           Tweet
-          <span className="bg-gradient-to-br from-blue-500 to-blue-800 h-fit ml-1  text-transparent bg-clip-text">
+          <span className="bg-gradient-to-br from-green-500 to-green-800 h-fit ml-1  text-transparent bg-clip-text">
             Craft
           </span>
         </div>
@@ -36,7 +36,7 @@ async function Header() {
         </LogoutLink>
       ) : (
         <LoginLink>
-          <div className="border-blue-400 hover:bg-gradient-to-br hover:from-blue-600 hover:to-blue-900 transition-all ease-in duration-100   border  bg-gradient-to-br from-blue-500 to-blue-800 font-light  px-3 py-1 rounded-md w-fit mx-auto">
+          <div className="border-green-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-green-900 transition-all ease-in duration-100   border  bg-gradient-to-br from-green-500 to-green-800 font-light  px-3 py-1 rounded-md w-fit mx-auto">
             Sign In
           </div>
         </LoginLink>

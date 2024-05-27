@@ -58,14 +58,14 @@ const GenerateTweet = () => {
           <button
             disabled
             type="submit"
-            className="bg-gradient-to-br active:scale-95 flex items-center from-blue-500 to-blue-800 opacity-50 font-light px-3 py-1 text-md rounded-md w-fit mx-auto mt-3"
+            className="bg-gradient-to-br active:scale-95 flex items-center from-green-500 to-green-800 opacity-50 font-light px-3 py-1 text-md rounded-md w-fit mx-auto mt-3"
           >
             Generate tweet <Loader size={16} className="animate-spin ml-2" />
           </button>
         ) : (
           <button
             type="submit"
-            className="bg-gradient-to-br active:scale-95 from-blue-500 to-blue-800 font-light px-3 py-1 text-md rounded-md w-fit mx-auto mt-3"
+            className="bg-gradient-to-br active:scale-95 from-green-500 to-green-800 font-light px-3 py-1 text-md rounded-md w-fit mx-auto mt-3"
           >
             Generate tweet
           </button>
@@ -97,7 +97,7 @@ const GenerateTweet = () => {
                 toast.success("Copied To Clipboard 🚀");
                 navigator.clipboard.writeText(tweet);
               }}
-              className="bg-gradient-to-br from-blue-500 flex items-center active:scale-95 to-blue-800 font-light px-3 py-1 text-md rounded-md w-fit mx-auto"
+              className="bg-gradient-to-br from-green-500 flex items-center active:scale-95 to-green-800 font-light px-3 py-1 text-md rounded-md w-fit mx-auto"
             >
               Copy <Copy size={16} className="ml-2" />
             </button>
@@ -105,7 +105,7 @@ const GenerateTweet = () => {
               href={tweetUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-br from-blue-500 flex items-center active:scale-95 to-blue-800 font-light px-3 py-1 text-md rounded-md w-fit mx-auto"
+              className="bg-gradient-to-br from-green-500 flex items-center active:scale-95 to-green-800 font-light px-3 py-1 text-md rounded-md w-fit mx-auto"
             >
               Tweet this <Twitter size={16} className="ml-2" />
             </Link>

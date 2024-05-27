@@ -32,13 +32,13 @@ export default async function Home() {
           <span className="bg-gradient-to-br from-gray-100 to-gray-300 text-transparent bg-clip-text">
             Tweet
           </span>
-          <span className=" lg:text-6xl text-3xl  font-semibold bg-gradient-to-br from-blue-500 to-blue-800 h-fit text-transparent bg-clip-text  ml-2">
+          <span className=" lg:text-6xl text-3xl  font-semibold bg-gradient-to-br from-green-500 to-green-800 h-fit text-transparent bg-clip-text  ml-2">
             Smarter!
           </span>
         </div>
         <div className="bg-gradient-to-br from-gray-100 to-gray-300 text-transparent  lg:text-6xl text-3xl  font-semibold  bg-clip-text py-2">
           Not Harder with
-          <span className=" lg:text-6xl text-3xl  font-semibold bg-gradient-to-br from-blue-500 to-blue-800 h-fit text-transparent bg-clip-text  ml-2">
+          <span className=" lg:text-6xl text-3xl  font-semibold bg-gradient-to-br from-green-500 to-green-800 h-fit text-transparent bg-clip-text  ml-2">
             AI{" "}
           </span>{" "}
           Magic!
@@ -52,7 +52,7 @@ export default async function Home() {
         ) : (
           <>
             <LoginLink>
-              <div className="active:scale-95 border-blue-400 border   bg-gradient-to-br from-blue-500 to-blue-800 font-light  px-3 py-1 text-md  rounded-md w-fit mx-auto mt-10 ">
+              <div className="active:scale-95 border-green-400 border   bg-gradient-to-br from-green-500 to-green-800 font-light  px-3 py-1 text-md  rounded-md w-fit mx-auto mt-10 ">
                 Get Started
               </div>
             </LoginLink>

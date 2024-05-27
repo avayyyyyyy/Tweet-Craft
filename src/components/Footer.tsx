@@ -13,7 +13,7 @@ function Footer() {
               className="flex justify-center items-center bg-gradient-to-br from-gray-100 to-gray-400 h-fit font-semibold text-lg  text-transparent bg-clip-text sm:justify-start"
             >
               Shubh
-              <span className=" bg-gradient-to-br from-blue-500 to-blue-800 text-transparent bg-clip-text">
+              <span className=" bg-gradient-to-br from-green-500 to-green-800 text-transparent bg-clip-text">
                 Codes
               </span>
               <Github size={18} className="text-white ml-3" />
