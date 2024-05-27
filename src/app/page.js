@@ -11,8 +11,8 @@ import Link from "next/link";
 
 export default async function Home() {
   const { getUser } = getKindeServerSession();
-  let user = { email: "habhabs" };
-  // const user = await getUser();
+  // let user = { email: "habhabs" };
+  const user = await getUser();
 
   return (
     <main className="flex min-h-[85vh]  bg-black  flex-col items-center justify-between p-24">
