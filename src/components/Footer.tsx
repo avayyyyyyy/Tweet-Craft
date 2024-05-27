@@ -9,6 +9,7 @@ function Footer() {
         <div className="mx-auto max-w-screen-xl px-4 py-5 sm:px-6 md:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <Link
+              target="_blank"
               href={"https://shubhcodes.vercel.app"}
               className="flex justify-center items-center bg-gradient-to-br from-gray-100 to-gray-400 h-fit font-semibold text-lg  text-transparent bg-clip-text sm:justify-start"
             >
