@@ -7,12 +7,11 @@ import {
   LoginLink,
   getKindeServerSession,
 } from "@kinde-oss/kinde-auth-nextjs/server";
+import Link from "next/link";
 
 export default async function Home() {
   const { getUser } = getKindeServerSession();
   const user = await getUser();
-
-  console.log(user?.email);
 
   return (
     <main className="flex h-[85vh] flex-col items-center justify-between p-24">
@@ -21,6 +20,14 @@ export default async function Home() {
           user?.email && "mt-0"
         } lg:max-w-4xl w-[80vw]  text-center items-center flex flex-col z-20 `}
       >
+        <Link href={"https://peerlist.io/avayyyyyyy/project/tweetcraft"}>
+          <Image
+            src={"https://peerlist.io/images/Launch_Badge_Dark.svg"}
+            width={150}
+            height={150}
+            alt="peerlist"
+          />
+        </Link>
         <div className="mt-10 lg:text-6xl text-3xl  font-semibold">
           <span className="bg-gradient-to-br from-gray-100 to-gray-300 text-transparent bg-clip-text">
             Tweet
@@ -53,7 +60,6 @@ export default async function Home() {
           </>
         )}
       </div>
-
       <RadialGradient className="opacity-30 z-10" />
     </main>
   );
