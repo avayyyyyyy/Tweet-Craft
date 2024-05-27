@@ -33,13 +33,13 @@ const GenerateTweet = () => {
   return (
     <div className="w-full">
       <form className="mt-10" onSubmit={handleSubmit}>
-        <div className="flex justify-center gap-2 my-2 items-center">
+        <div className="flex justify-center gap-2 my-2 max-w-[80vw] items-center">
           <input
             type="text"
             placeholder="Enter your topic..."
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            className="p-2 bg-transparent outline-none w-80 border-gray-700 border rounded-md"
+            className="p-2 bg-transparent outline-none w-[60%]  md:w-[80%] border-gray-700 border rounded-md"
           />
           <select
             name="mood"
@@ -73,7 +73,7 @@ const GenerateTweet = () => {
       </form>
       {tweet && (
         <>
-          <div className="my-10 px-5 py-3 mx-auto rounded-lg bg-white w-[50%]">
+          <div className="my-10 px-5 py-3 mx-auto rounded-lg bg-white md:w-[70%] w-[80%]">
             <div className="flex items-center gap-2">
               <Image
                 width={40}

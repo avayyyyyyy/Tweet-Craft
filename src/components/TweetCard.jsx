@@ -3,7 +3,7 @@ import React from "react";
 
 function TweetCard({ text }) {
   return (
-    <div className="my-10 px-5 max-w-md  py-3 mx-auto  rounded-lg bg-white">
+    <div className="my-10 md:max-w-2xl max-w-xl py-3 mx-auto  rounded-lg bg-white">
       <div className="flex items-center gap-2">
         <Image
           width={10}
