@@ -14,7 +14,7 @@ export default async function Home() {
   const user = await getUser();
 
   return (
-    <main className="flex h-[85vh] flex-col items-center justify-between p-24">
+    <main className="flex h-[85vh] bg-black  flex-col items-center justify-between p-24">
       <div
         className={`h-full ${
           user?.email && "mt-0"
