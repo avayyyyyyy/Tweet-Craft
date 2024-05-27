@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <footer className="bg-transparent border-t border-gray-700 w-[80vw] mx-auto ">
+      <footer className="bg-transparent border-t border-gray-700 bg-black  w-[80vw] mx-auto ">
         <div className="mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <Link

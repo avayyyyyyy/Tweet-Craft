@@ -16,7 +16,7 @@ async function Header() {
   console.log(user);
 
   return (
-    <div className="flex py-5 px-8 border-b border-gray-800  mx-auto  justify-between max-w-7xl">
+    <div className="flex py-5 px-8 border-b border-gray-800 bg-black  mx-auto  justify-between max-w-7xl">
       <Link href={"/"}>
         <div className="text-2xl font-bold bg-gradient-to-br from-gray-100 to-gray-500 text-transparent bg-clip-text">
           Tweet
