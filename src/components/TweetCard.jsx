@@ -10,7 +10,7 @@ function TweetCard({ text }) {
           height={10}
           alt="TC"
           src={
-            "https://utfs.io/f/e3644742-d505-40c0-bb45-0e3ec755c394-y8elqc.png"
+            "https://utfs.io/f/92d7ec3d-537a-46ab-9376-c289859af10d-imag69.png"
           }
           className="bg-gray-900 h-10 w-10 rounded-full"
         />
