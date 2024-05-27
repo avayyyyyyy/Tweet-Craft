@@ -36,10 +36,10 @@ const GenerateTweet = () => {
         <div className="flex justify-center gap-2 my-2 max-w-[80vw] items-center">
           <input
             type="text"
-            placeholder="Enter your topic..."
+            placeholder="Enter your topic...( AI, WEB3, MERN )"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            className="p-2 bg-transparent outline-none w-[60%]  md:w-[80%] border-gray-700 border rounded-md"
+            className="p-2 bg-transparent outline-none w-[60%] md:w-[80%] border-gray-700 border rounded-md"
           />
           <select
             name="mood"
