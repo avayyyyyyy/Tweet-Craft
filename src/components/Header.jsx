@@ -36,7 +36,7 @@ async function Header() {
         </LogoutLink>
       ) : (
         <LoginLink>
-          <div className="border-green-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-green-900 transition-all ease-in duration-100   border  bg-gradient-to-br from-green-500 to-green-800 font-light  px-3 py-1 rounded-md w-fit mx-auto">
+          <div className="border-green-400 hover:bg-gradient-to-br text-white  hover:from-green-600 hover:to-green-900 transition-all ease-in duration-100   border  bg-gradient-to-br from-green-500 to-green-800 font-light  px-3 py-1 rounded-md w-fit mx-auto">
             Sign In
           </div>
         </LoginLink>

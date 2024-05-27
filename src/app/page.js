@@ -52,7 +52,7 @@ export default async function Home() {
         ) : (
           <>
             <LoginLink>
-              <div className="active:scale-95 border-green-400 border   bg-gradient-to-br from-green-500 to-green-800 font-light  px-3 py-1 text-md  rounded-md w-fit mx-auto mt-10 ">
+              <div className="active:scale-95 border-green-400 border text-white  bg-gradient-to-br from-green-500 to-green-800 font-light  px-3 py-1 text-md  rounded-md w-fit mx-auto mt-10 ">
                 Get Started
               </div>
             </LoginLink>
