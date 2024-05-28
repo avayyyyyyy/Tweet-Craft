@@ -65,7 +65,7 @@ const tweets = [
 
 const AnimatedLogoCloud = () => {
   return (
-    <div className="md:w-[70vw] w-[85vw]   py-2 select-none">
+    <div className="md:w-[70vw] w-[95vw]  py-2 select-none">
       <div className="mx-auto w-full px-4 md:px-8">
         <div
           className="group relative mt-6 flex gap-6 overflow-hidden p-2"
