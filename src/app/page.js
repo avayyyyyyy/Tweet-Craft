@@ -19,7 +19,7 @@ export default async function Home() {
       <div
         className={`h-full ${
           user?.email && "mt-0"
-        } md:max-w-4xl w-[80vw]  text-center items-center flex flex-col z-20 `}
+        } md:max-w-4xl w-[80vw] text-center items-center flex flex-col z-20 `}
       >
         <Link href={"https://peerlist.io/avayyyyyyy/project/tweetcraft"}>
           <Image
@@ -52,8 +52,8 @@ export default async function Home() {
           <GenerateTweet />
         ) : (
           <>
-            <LoginLink>
-              <div className="active:scale-95 border-green-400 border text-white  bg-gradient-to-br from-green-500 to-green-800 font-light  px-3 py-1 text-md  rounded-md w-fit mx-auto mt-10 ">
+            <LoginLink className="mt-10">
+              <div className="active:scale-95 border-green-400 border text-white  bg-gradient-to-br from-green-500 to-green-800 font-light  px-3 py-1 text-md rounded-md w-fit mx-auto">
                 Get Started
               </div>
             </LoginLink>
