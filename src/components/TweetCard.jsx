@@ -3,7 +3,7 @@ import React from "react";
 
 function TweetCard({ text }) {
   return (
-    <div className="my-10 px-5 md:max-w-lg max-w-sm py-3 mx-auto  rounded-lg bg-white">
+    <div className="my-10 px-5 md:max-w-lg max-w-sm py-2 mx-auto rounded-lg bg-white">
       <div className="flex items-center gap-2">
         <Image
           width={10}
@@ -15,13 +15,15 @@ function TweetCard({ text }) {
           className="bg-gray-900 h-10 w-10 rounded-full"
         />
         <div>
-          <div className="text-sm font-semibold text-start text-gray-700">
+          <div className="md:text-sm text-xs font-semibold text-start text-gray-700">
             Tweetcraft
           </div>
-          <div className="text-xs text-gray-600">@tweetcraftbyshubh</div>
+          <div className="text-xs  text-gray-600">@tweetcraftbyshubh</div>
         </div>
       </div>
-      <div className="text-gray-700 mt-3 text-sm text-start">{text}</div>
+      <div className="text-gray-700 mt-3 md:text-sm text-xs text-start">
+        {text}
+      </div>
     </div>
   );
 }
