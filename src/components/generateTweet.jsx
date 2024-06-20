@@ -26,9 +26,7 @@ const GenerateTweet = () => {
     setLoading(false);
   }
 
-  const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-    tweet + "#tweetCraft"
-  )}`;
+  const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent( tweet + "#tweetCraft")}`;
 
   return (
     <div className="w-full">
